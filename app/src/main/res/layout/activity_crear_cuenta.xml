@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrearCuenta">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Crear Cuenta"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtcedulaCliente"
+        android:layout_width="365dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="32dp"
+        android:autofillHints="@string/nombre"
+        android:ems="10"
+        android:hint="Numero de cedula"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/txtnombre"
+        android:layout_width="363dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="32dp"
+        android:autofillHints="nombre"
+        android:ems="10"
+        android:hint="nombre"
+        android:inputType="textCapCharacters"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtcedulaCliente" />
+
+    <EditText
+        android:id="@+id/txtPin"
+        android:layout_width="361dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="32dp"
+        android:autofillHints="@string/email"
+        android:ems="10"
+        android:hint="Pin"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtnombre" />
+
+    <EditText
+        android:id="@+id/txtconfiPin"
+        android:layout_width="365dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="32dp"
+        android:autofillHints="@string/password"
+        android:ems="10"
+        android:hint="Confirme el Pin"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPin" />
+
+    <EditText
+        android:id="@+id/txtsaldo_cliente"
+        android:layout_width="365dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="32dp"
+        android:autofillHints="@string/password"
+        android:ems="10"
+        android:hint="Saldo Inicial"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtconfiPin" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="#03A9F4"
+        android:onClick="Crear_cuentaWposs"
+        android:text="@string/btn_registrar"
+        app:backgroundTint="#03A9F4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.839"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtsaldo_cliente" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="#03A9F4"
+        android:onClick="Regresar"
+        android:text="Regresar"
+        app:backgroundTint="#FF5722"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtsaldo_cliente" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

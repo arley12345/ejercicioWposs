@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuPrincipal">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="230dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="150dp"
+        android:background="#3F51B5"
+        android:onClick="Pagos_con_Targeta"
+        android:text="@string/Pagos_con_Tarjeta"
+        android:textColor="#FFF"
+        app:backgroundTint="#03A9F4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_conversion_absoluteWidth="93dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="228dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="#3F51B5"
+        android:onClick="Retiro_Wposs_Bank"
+        android:text="@string/Retiro_Wposs_Bank"
+        android:textColor="#FFF"
+        app:backgroundTint="#03A9F4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_conversion_absoluteWidth="93dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="231dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="16dp"
+        android:onClick="Deposito_Wposs_Bank"
+        android:text="@string/Deposito_Wposs_Bank"
+        android:textColor="#FFF"
+        app:backgroundTint="#03A9F4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_conversion_absoluteWidth="93dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="229dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="16dp"
+        android:onClick="Transferencia_Wposs_Bank"
+        android:text="@string/Transferencia_Wposs_Bank"
+        android:textColor="#FFF"
+        app:backgroundTint="#03A9F4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_conversion_absoluteWidth="93dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="229dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="16dp"
+        android:onClick="Consultas_de_saldo_Wposs_bank"
+        android:text="@string/Consultas_de_saldo_Wposs_bank"
+        android:textColor="#FFF"
+        app:backgroundTint="#03A9F4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_conversion_absoluteWidth="93dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="229dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="16dp"
+        android:onClick="Crear_Cuanta_Wposs"
+        android:text="@string/Crear_Cuanta_Wposs"
+        android:textColor="#FFF"
+        app:backgroundTint="#03A9F4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button8"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_conversion_absoluteWidth="93dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="229dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="16dp"
+        android:onClick="Historial_de_Transacciones"
+        android:text="@string/Historial_de_Transacciones"
+        android:textColor="#FFF"
+        app:backgroundTint="#03A9F4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button9"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_conversion_absoluteWidth="93dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="229dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="16dp"
+        android:onClick="Visualizar_saldo_del_corresponsal"
+        android:text="@string/Visualizar_saldo_del_corresponsal"
+        android:textColor="#FFF"
+        app:backgroundTint="#03A9F4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_conversion_absoluteWidth="93dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="@string/menu_opciones"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">ejercicioWposs</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="usuario">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="registro">Registro Usuario</string>
+    <string name="nombre">Ingrese sus nombres</string>
+    <string name="apellidos">Ingrese sus apellidos</string>
+    <string name="email">Ingrese un email</string>
+    <string name="password">Ingrese una contraseña</string>
+    <string name="Pagos_con_Tarjeta">Pagos Con Targeta</string>
+    <string name="Retiro_Wposs_Bank">Retiro Wposs Bank</string>
+    <string name="Transferencia_Wposs_Bank">Transferencia Wposs bank</string>
+    <string name="Consultas_de_saldo_Wposs_bank">Consultar de Saldo Wposs Bank</string>
+    <string name="Crear_Cuanta_Wposs">Crear Cuenta Wposs</string>
+    <string name="Historial_de_Transacciones">Historial de Transacciones</string>
+    <string name="Visualizar_saldo_del_corresponsal">Visualizar Saldo del Corresponsal</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+    <string name="btn_registrar">Crear Usuario</string>
+    <string name="Deposito_Wposs_Bank">Deposito Wposs bank</string>
+    <string name="nombre_producto">Nombre del producto</string>
+    <string name="descripcion_producto">Descripción del producto</string>
+    <string name="valor_producto">Valor del Producto</string>
+    <string name="comprar">Comprar</string>
+    <string name="transferir_dinero">Transferir Dinero</string>
+    <string name="retirar_dinero">Retirar Dinero</string>
+    <string name="usuario_normal">Usuario Normal</string>
+    <string name="menu_opciones">Menu de Corresponsal</string>
+    <string name="Login">Login</string>
+
+    <string-array name="numeros">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+</resources>
